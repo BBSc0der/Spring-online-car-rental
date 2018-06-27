@@ -1,0 +1,128 @@
+html, body{
+    background-color: #eeeeee;
+    margin: 0;
+    color: #1e302f;
+    font-family: sans-serif;
+}
+#wrapper{
+    padding: 10px;
+    max-width: 978px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: 2px solid #e2e2e2;
+    min-height: 400px;
+}
+#header{
+    background-color: white;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #e2e2e2;
+}
+#bar{
+    padding: 10px;
+    border-bottom: 3px solid #39aea9;
+    
+}
+#bar h2{
+    margin: 0;
+}
+#nav{
+    padding: 5px;
+}
+#nav ul{
+    margin: 0;
+    text-indent: 0;
+    list-style: none;
+    text-align: left;
+}
+#nav ul li{
+    display: inline-block;
+    //border-left: 1px #d4d4d4 solid;
+    //border-right: 1px #d4d4d4 solid;
+    text-align: center;
+    
+}
+#nav ul li a{
+    text-decoration: none;
+    //color: #39aea9;
+    color: #5b5151;
+    display: inline-block;
+    padding: 10px;
+    min-width: 100px;
+    height: 20px;
+}
+#nav ul li a:hover{
+    color: #39aea9;
+}
+#footer{
+    height: 100px;
+    background-color: #393030;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+#content{
+    padding: 20px;
+}
+
+input[type="text"]{
+    height: 20px;
+}
+select{
+    height: 26px;
+    border: 2px solid #e2e2e2;
+}
+input[type="submit"]{
+    height: 26px;
+    min-width: 100px;
+    background-color: #39aea9;
+    border: 1px solid #4abfba;
+    color: white;
+}
+.veh_spec{
+    border-bottom: 2px solid #39aea9;
+}
+.error{
+    color: red;
+}
+#left-nav{
+    float: left;
+    width: calc(100% - 120px);
+}
+#right-nav{
+    float: left;
+    text-align: right;
+    width: 120px;
+    padding-top: 5px;
+}
+form  { display: table;      }
+form p     { display: table-row;  }
+label { display: table-cell; }
+input { 
+    display: table-cell;
+    border: 2px solid #e2e2e2; 
+    margin-bottom: 2px;
+}
+
+table.statistics{
+    width: 100%;
+    border-spacing: 0px;
+}
+table.statistics td{
+    text-align: center;
+}
+table.statistics thead {
+    background-color: #393030;
+    color: white;
+}
+table.statistics tr{
+    height: 30px;
+}
+
+.active{
+    color: black;
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+}
